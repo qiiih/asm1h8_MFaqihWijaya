@@ -1,0 +1,6 @@
+{
+    "server": {
+        "name":"library-server",
+        "port":8080
+    }
+}

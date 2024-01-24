@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Book Title 1",
+        "author": "Book Author 1",
+        "year": 1875,
+        "edition": "Edition 1",
+        "price": 13.4
+    },
+    {
+        "id": 2,
+        "title": "Book Title 2",
+        "author": "Book Author 2",
+        "year": 1875,
+        "edition": "Edition 2",
+        "price": 13.4
+    },
+    {
+        "id": 3,
+        "title": "Book Title 3",
+        "author": "Book Author 3",
+        "year": 1875,
+        "edition": "Edition 3",
+        "price": 13.4
+    },
+    {
+        "id": 4,
+        "title": "Book Title 4",
+        "author": "Book Author 4",
+        "year": 1875,
+        "edition": "Edition 4",
+        "price": 13.4
+    },
+    {
+        "id": 5,
+        "title": "Book Title 5",
+        "author": "Book Author 5",
+        "year": 1875,
+        "edition": "Edition 5",
+        "price": 13.4
+    },
+    {
+        "id": 6,
+        "title": "Book Title 6",
+        "author": "Book Author 6",
+        "year": 1875,
+        "edition": "Edition 6",
+        "price": 13.4
+    },
+    {
+        "id": 7,
+        "title": "Book Title 7",
+        "author": "Book Author 7",
+        "year": 1875,
+        "edition": "Edition 7",
+        "price": 13.4
+    }
+]
