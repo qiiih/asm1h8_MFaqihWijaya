@@ -9,8 +9,19 @@ app.set('view engine', 'ejs')
 app.use('/public', express.static('public'))
 
 app.get('/books', (req, res) => {
+    res.setHeader('Content-Type','application/json')
+    res.end(JSON.stringify(books))
+})
+
+app.get('/ejs/books', (req, res) => {
     res.setHeader('Content-Type','text/html')
     res.render('bookList', {books})
+})
+
+app.get('/books/:bookId', (req, res) => {
+    const bookId = req.params.bookId
+    res.setHeader('Content-Type','application/json')
+    res.end(JSON.stringify(books.filter(el => el.id == bookId)))
 })
 
 app.listen(config.server.port, () => {
